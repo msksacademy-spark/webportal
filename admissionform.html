@@ -178,7 +178,7 @@
 
     <section id="admission">
         <h3>Admission Form</h3>
-        <form action="#" method="post">
+        <form action="forms.xls" method="post">
             <input type="text" name="student_name" placeholder="Student's Full Name" required>
             <input type="text" name="parent_name" placeholder="Parent/Guardian Name" required>
             <input type="email" name="email" placeholder="Parent's Email" required>
@@ -202,15 +202,24 @@
 
     <section id="contact">
         <h3>Contact Us</h3>
-        <p><strong>Address:</strong> 123 Academy Road, Chennai, Tamil Nadu, India</p>
-        <p><strong>Phone:</strong> +91 98765 43210</p>
-        <p><strong>Email:</strong> info@kids-sparkacademy.com</p>
+        <form action="message.xls" method="post">
+            <label for="name">Name </label>
+            <input type="text" id="name" placeholder="Enter Your Name"></input>
+            <label for="mail">E-Mail</label>
+            <input type="text" id="mail" placeholder="name.web@gmail.com"></input>
+            <label for="message">Enter Your Message</label>
+            <input type="text area" id="message" placeholder="Enter your message Here in 100 Words" words="100"></input><br>
+        </form>
+       
     </section>
 
 </main>
 
 <footer>
     &copy; 2025 MS Kids Spark Academy | All Rights Reserved
+     <p><strong>Address:</strong> Manniyar Valagam, Krishna Mandabam Opposite, Sethayathope Tamil Nadu, India</p>
+        <p><strong>Phone:</strong> +91 9788896492 | +91 9363041618</p>
+        <p><strong>Email:</strong> msksacademy@mail.com</p>
 </footer>
 
 </body>
